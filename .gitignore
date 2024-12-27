@@ -1,0 +1,5 @@
+venv
+db.sqlite3
+testapp/__pycache__
+graphQLProject/__pycache__
+testapp/migrations/__pycache__
