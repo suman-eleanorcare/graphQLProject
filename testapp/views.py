@@ -1,10 +1,6 @@
-import strawberry.dataloader
-from .models import Book
 from strawberry.types import Info
 from strawberry import auto
-from .models import UserData
-from django.contrib.auth.models import User
-# Create your views here.
+from .models import UserData, Book
 import strawberry
 
 @strawberry.django.type(Book)
